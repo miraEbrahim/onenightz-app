@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import Places from './components/places/Places.js';
+import MapMira from './components/map/MapMira.js' 
 import './App.css';
 
 class App extends Component {
@@ -20,6 +22,8 @@ class App extends Component {
             Learn React
           </a>
         </header>
+        <Places />
+        <MapMira />
       </div>
     );
   }
